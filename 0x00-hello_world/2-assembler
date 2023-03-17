@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s $CFILE -o c.s > c.c
+gcc -S  $FILE -o `echo $CFILE` | cut -d. -f1 `.o` 
