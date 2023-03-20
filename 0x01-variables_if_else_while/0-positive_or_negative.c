@@ -12,7 +12,7 @@
  */
 int main(void)
 {
-        int n;
+	int n;
 
         scanf(" %d ", &n);
         srand(time(0));
@@ -27,6 +27,6 @@ int main(void)
                 printf("%d is positive", n);
         }
         else
-		printf("%d is negative", n);
-        return (0);
+		printf("%d is negative\n", n); 
+		return (0);
 }
